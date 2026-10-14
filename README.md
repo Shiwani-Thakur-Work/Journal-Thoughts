@@ -3,6 +3,9 @@
 > A minimalist, typography-first personal archive of observations, field notes, and quiet musings.  
 > Penned by Shiwani. Built for zero-friction writing and distraction-free reading.
 
+🔗 **Live Website:** [https://shiwani-thakur-work.github.io/Journal-Thoughts/](https://shiwani-thakur-work.github.io/Journal-Thoughts/)  
+📦 **Repository:** [https://github.com/Shiwani-Thakur-Work/Journal-Thoughts](https://github.com/Shiwani-Thakur-Work/Journal-Thoughts)
+
 ---
 
 ## ✨ Features
