@@ -1,7 +1,7 @@
-# 🌿 Journal of Thoughts
+# 🌿 Daybook
 
-> A minimalist, typography-first personal journal and observation archive inspired by [karthis.com](https://karthis.com/).  
-> Built for zero friction writing and distraction-free reading.
+> A minimalist, typography-first personal archive of observations, field notes, and quiet musings.  
+> Penned by Shiwani. Built for zero-friction writing and distraction-free reading.
 
 ---
 

@@ -7,7 +7,7 @@ export default function Header({ theme, toggleTheme, onOpenAbout, onGoHome }) {
       <div className="header-top">
         <a href="#/" onClick={(e) => { e.preventDefault(); onGoHome(); }} className="site-brand">
           <h1 className="brand-title">
-            Shiwani <span className="brand-subtitle">/ Notes</span>
+            Daybook <span className="brand-subtitle">/ Shiwani</span>
           </h1>
         </a>
 

@@ -35,12 +35,12 @@ export default function AboutModal({ isOpen, onClose }) {
         </button>
 
         <h2 id="about-modal-title" className="modal-title">
-          About this Space
+          About Daybook
         </h2>
 
         <div className="modal-content">
           <p>
-            Hello, I’m <strong>Shiwani</strong>.
+            Welcome to my personal <strong>Daybook</strong>.
           </p>
 
           <p>
