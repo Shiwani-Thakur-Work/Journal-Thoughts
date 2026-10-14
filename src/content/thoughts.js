@@ -1,133 +1,137 @@
 /**
  * JOURNAL OF THOUGHTS — CONTENT STORE
- * A lightweight, frictionless archive for observations, musings, and curations.
+ * 100% Original Personal Notes, Observations & Musings.
  * 
- * To add a new thought:
- * Simply add a new object to this array at the top.
+ * Each entry is a personal reflection on everyday life, things noticed,
+ * small daily epiphanies, and curated ideas that sparked curiosity.
  */
 
 export const THOUGHTS = [
   {
-    id: "action-precedes-clarity",
-    slug: "action-precedes-clarity",
-    title: "Action Precedes Clarity",
+    id: "morning-light-at-seven",
+    slug: "morning-light-at-seven",
+    title: "The Morning Light at 7:14 AM",
     date: "Oct 14, 2026",
     year: "2026",
-    category: "Musings",
-    readTime: "2 min read",
-    tags: ["#momentum", "#mindset", "#starting"],
-    excerpt: "We often wait for the fog to clear before taking a step, forgetting that it is the physical act of moving that generates the wind.",
-    content: `
-      <p>We often wait for the fog to clear before taking a single step, forgetting that it is usually the physical act of moving that generates the wind to blow the fog away.</p>
-      
-      <p>In almost every creative endeavor—writing an essay, building a tiny side project, sketching an idea, or having a delicate conversation—the illusion is that you must have a crisp mental blueprint first.</p>
-
-      <blockquote>
-        "You do not think your way into a new way of living; you live your way into a new way of thinking."
-        <cite>— Richard Rohr</cite>
-      </blockquote>
-
-      <p>Whenever I feel stuck or overwhelmed by possibilities, the antidote has never been more analysis or better planning. It has always been lowering the threshold of action to something so ridiculously small that failure has zero stakes.</p>
-
-      <p>Write one sentence. Open the blank file. Take a three-minute stroll around the block. Motion creates emotion, and clarity is a byproduct of engagement, never isolation.</p>
-    `
-  },
-  {
-    id: "quiet-geometry-of-rain",
-    slug: "quiet-geometry-of-rain",
-    title: "The Quiet Geometry of a Rainy Afternoon",
-    date: "Oct 11, 2026",
-    year: "2026",
     category: "Noticed",
     readTime: "1 min read",
-    tags: ["#observation", "#rain", "#stillness"],
-    excerpt: "Watching people negotiate puddles on the sidewalk: a silent, synchronized choreography of strangers without a rehearsal.",
+    tags: ["#light", "#stillness", "#morning"],
+    excerpt: "For about twelve minutes every autumn morning, the sun cuts through the blinds at a low angle, turning ordinary dust into floating gold.",
     content: `
-      <p>Sitting by a glass window today during a sudden autumn shower, I watched people navigate the sidewalk below.</p>
+      <p>For about twelve minutes every autumn morning, the sun cuts through the kitchen blinds at an acute angle, catching the rim of a ceramic mug and turning ordinary dust motes into tiny floating galaxies.</p>
 
-      <p>Without any verbal coordination, pedestrians formed an instinctive choreography: tilting umbrellas at precise angles to let others pass, adjusting stride lengths to dodge puddle ripples, and stepping into doorways with a shared sense of collective pause.</p>
-
-      <p>There is an unspoken kindness in rain. It forces an entire city to slow down to the exact same tempo, if only for twenty minutes.</p>
-    `
-  },
-  {
-    id: "john-odonohue-silence",
-    slug: "john-odonohue-silence",
-    title: "A Line on Silence by John O'Donohue",
-    date: "Oct 04, 2026",
-    year: "2026",
-    category: "Liked",
-    readTime: "2 min read",
-    tags: ["#quotes", "#reading", "#solitude"],
-    excerpt: "A quote that stayed with me all week: 'Silence is not the absence of sound, but the presence of stillness.'",
-    content: `
-      <p>I came across this passage while flipping through an old notebook this morning:</p>
+      <p>We spend so much time searching for profound moments in art galleries or vacation spots, but the world is quietly performing quiet miracles in the corner of your kitchen while the kettle boils.</p>
 
       <blockquote>
-        "Silence is the sister of the divine. It is the language of listening. When you learn to listen to stillness, you hear the quiet pulse that connects all things."
-        <cite>— John O'Donohue, Anam Cara</cite>
+        "To pay attention, this is our endless and proper work."
+        <cite>— Mary Oliver</cite>
       </blockquote>
 
-      <p>In our hyper-connected feeds where every second demands commentary, reaction, and performance, choosing deliberate silence feels almost subversive. It reminds me of why I appreciate websites that don't yell at you—places that feel like a quiet library corner at dusk.</p>
+      <p>I just stood there with my tea, watching the angle shift millimeter by millimeter until the room returned to flat morning gray. A reminder that beauty is mostly a matter of timing and paying attention.</p>
     `
   },
   {
-    id: "physical-books-digital-anchors",
-    slug: "physical-books-digital-anchors",
-    title: "Why Physical Objects Ground Us in a Digital Haze",
-    date: "Sep 28, 2026",
-    year: "2026",
-    category: "Noticed",
-    readTime: "3 min read",
-    tags: ["#tactile", "#objects", "#digital-life"],
-    excerpt: "Why the weight of a paper book, the click of a mechanical switch, and a fountain pen feel increasingly sacred.",
-    content: `
-      <p>Most of my day takes place inside glowing glass rectangles. Pixels shift weightlessly, tabs multiply without physical friction, and everything can be undone with a keystroke.</p>
-
-      <p>Because digital artifacts are infinitely malleable, they often fail to feel *real*. They lack mass. They leave no tangible shadow on your desk.</p>
-
-      <p>I noticed that whenever I feel mentally untethered, the quickest remedy is handling something with physical resistance: grinding whole coffee beans by hand, writing with ink that needs five seconds to dry on paper, or flipping through a dog-eared paperback.</p>
-
-      <p>We are physical beings evolutionary tuned to texture, resistance, and gravity. We need friction to know where we end and the world begins.</p>
-    `
-  },
-  {
-    id: "dieter-rams-less-but-better",
-    slug: "dieter-rams-less-but-better",
-    title: "Dieter Rams on 'Less, But Better'",
-    date: "Sep 19, 2026",
-    year: "2026",
-    category: "Liked",
-    readTime: "1 min read",
-    tags: ["#design", "#simplicity", "#craft"],
-    excerpt: "Weniger, aber besser. The philosophy of stripping away the superfluous so the essential can breathe.",
-    content: `
-      <p>The famous mantra of Dieter Rams—<em>"Weniger, aber besser"</em> (Less, but better)—is often cited in industrial design circles, but its truest power is in editing one's thoughts and daily schedule.</p>
-
-      <blockquote>
-        "Good design is as little design as possible. Less, but better—because it concentrates on the essential aspects, and the products are not burdened with non-essentials."
-        <cite>— Dieter Rams</cite>
-      </blockquote>
-
-      <p>When in doubt: remove a sentence, remove an unnecessary tool, clear the desk. What remains gains ten times the potency.</p>
-    `
-  },
-  {
-    id: "small-corners-of-the-web",
-    slug: "small-corners-of-the-web",
-    title: "The Return to Small, Personal Corners on the Web",
-    date: "Sep 07, 2026",
+    id: "walking-without-headphones",
+    slug: "walking-without-headphones",
+    title: "Walking Without Headphones",
+    date: "Oct 10, 2026",
     year: "2026",
     category: "Musings",
     readTime: "2 min read",
-    tags: ["#indieweb", "#journal", "#slowweb"],
-    excerpt: "Why building your own quiet home online is infinitely more fulfilling than chasing algorithms on social platforms.",
+    tags: ["#walking", "#solitude", "#soundscape"],
+    excerpt: "Leaving headphones on the desk for a 20-minute walk feels almost vulnerable at first, until the ambient pulse of the city fills the silence.",
     content: `
-      <p>The modern web was supposed to connect us, but algorithmically optimized feeds transformed what was once a serendipitous garden into an attention-extracting casino.</p>
+      <p>I realized recently that I hadn't taken a walk without audio playing in my ears for months. Podcasts on 1.5x speed, ambient synthesizer playlists, audiobooks—always a continuous stream of someone else's thoughts occupying my headspace.</p>
 
-      <p>Lately, there is a quiet, beautiful migration happening back to personal spaces. Blogs with no comments sections, no metrics, no engagement counters. Just a human being writing down what they noticed today.</p>
+      <p>Yesterday, I deliberately left the earbuds on the counter.</p>
 
-      <p>This space is my little garden plot. A humble corner hosted directly on GitHub, free of tracking, clutter, or demands on your time. If you wander by, make yourself a cup of tea and stay as long or as briefly as you like.</p>
+      <p>The first five minutes felt strangely naked. My brain kept reaching for input like an itch it couldn't scratch. But by the tenth minute, something shifted. I started hearing the distinct dry rattle of fallen leaves under bike tires, the hiss of espresso steam from an open café door, and two schoolchildren arguing about whose backpack was heavier.</p>
+
+      <p>Silence isn't empty; it's full of answers to questions you didn't know you had. If your mind is constantly being fed content, it never has the margin to digest what it already knows.</p>
+    `
+  },
+  {
+    id: "margins-of-secondhand-books",
+    slug: "margins-of-secondhand-books",
+    title: "The Margins of Second-Hand Books",
+    date: "Oct 06, 2026",
+    year: "2026",
+    category: "Liked",
+    readTime: "2 min read",
+    tags: ["#books", "#reading", "#marginalia"],
+    excerpt: "Finding a stranger's faint pencil notes in a 1984 paperback feels like sharing an intimate conversation across four decades.",
+    content: `
+      <p>Picked up an old copy of an essay collection at a curbside book stall over the weekend. Inside, on page 43, someone had drawn a faint pencil bracket around two sentences, followed by a single word in the margin:</p>
+
+      <blockquote>
+        "Finally."
+      </blockquote>
+
+      <p>I sat there wondering: Who was this reader? What was happening in their life on the day they read those words and felt so seen that all they could write was <em>finally</em>?</p>
+
+      <p>There is an unexpected tenderness in physical books that digital files cannot replicate. They carry the patina of previous hands, forgotten bookmarks, and faint tea rings—ghosts of solitary minds reading under bedside lamps years before you were born.</p>
+    `
+  },
+  {
+    id: "overheard-at-the-bakery",
+    slug: "overheard-at-the-bakery",
+    title: "Overheard at the Corner Bakery",
+    date: "Sep 29, 2026",
+    year: "2026",
+    category: "Noticed",
+    readTime: "1 min read",
+    tags: ["#overheard", "#people", "#warmth"],
+    excerpt: "A brief, unscripted exchange between an elderly man and a young baker that made the whole queue smile.",
+    content: `
+      <p>An elderly man in an oversized tweed overcoat stood in front of me at the neighborhood bakery counter this morning.</p>
+
+      <p>He pointed at a loaf of crusty sourdough and said to the young baker behind the counter: <em>"Tell me truthfully, son—is this bread going to demand that I make a pot of soup tonight?"</em></p>
+
+      <p>Without skipping a beat, the baker smiled and replied: <em>"It won't demand it, sir, but it will certainly sulk if you don't."</em></p>
+
+      <p>Everyone in line laughed softly. Just twenty seconds of warm, playful human connection between two people who probably know nothing about each other's private struggles. The world is full of these tiny bridges if you leave your eyes open.</p>
+    `
+  },
+  {
+    id: "the-art-of-closing-tabs",
+    slug: "the-art-of-closing-tabs",
+    title: "The False Urgency of Forty Open Tabs",
+    date: "Sep 21, 2026",
+    year: "2026",
+    category: "Musings",
+    readTime: "2 min read",
+    tags: ["#digital-calm", "#focus", "#habits"],
+    excerpt: "We hoard browser tabs like unresolved promises to our future selves. Closing them all is an act of gentle self-forgiveness.",
+    content: `
+      <p>Every open browser tab is a tiny micro-debt. It's a whisper from three days ago saying: <em>"You should read this article on cognitive load,"</em> or <em>"You need to research that chair design,"</em> or <em>"Keep this open so you don't forget who you wanted to become."</em></p>
+
+      <p>Eventually, the browser window looks like a crowded airport terminal where no flights are allowed to take off.</p>
+
+      <p>Today, I performed the sacred ritual: Right-click &rarr; <strong>Close Other Tabs</strong>.</p>
+
+      <p>Did I lose valuable knowledge? Probably. But what I gained back was the mental equivalent of vacuuming the living room floor. If an idea is truly vital, it will find its way back into your life when the time is right. Everything else is just noise pretending to be urgency.</p>
+    `
+  },
+  {
+    id: "kintsugi-and-imperfection",
+    slug: "kintsugi-and-imperfection",
+    title: "Kintsugi: Gold in the Fractures",
+    date: "Sep 12, 2026",
+    year: "2026",
+    category: "Liked",
+    readTime: "2 min read",
+    tags: ["#philosophy", "#craft", "#imperfection"],
+    excerpt: "The traditional Japanese practice of repairing broken pottery with lacquer mixed with powdered gold, silver, or platinum.",
+    content: `
+      <p>I was revisiting the concept of <em>Kintsugi</em> (金継ぎ, "golden joinery"). In Western restoration traditions, the highest skill is making a break invisible—restoring an object as though trauma never occurred.</p>
+
+      <p>Kintsugi does the exact opposite.</p>
+
+      <blockquote>
+        "The break is not a defect to be hidden, but a milestone in the history of the object, celebrated with veins of pure gold."
+      </blockquote>
+
+      <p>The bowl becomes more valuable, more resilient, and far more interesting precisely because it was shattered and carefully pieced back together. It's an extraordinarily compassionate metaphor for people too: our scars, false starts, and recovered missteps aren't things to conceal—they are the gold lines that make our character singular.</p>
     `
   }
 ];

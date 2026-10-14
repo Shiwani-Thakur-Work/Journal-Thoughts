@@ -31,7 +31,7 @@ export default function AboutModal({ isOpen, onClose }) {
           className="modal-close-btn"
           aria-label="Close about dialog"
         >
-          <X size={18} />
+          <X size={17} />
         </button>
 
         <h2 id="about-modal-title" className="modal-title">
@@ -50,19 +50,19 @@ export default function AboutModal({ isOpen, onClose }) {
           <p>
             The content is divided into three lightweight rhythms:
           </p>
-          <ul style={{ paddingLeft: '1.25rem', marginBottom: '1rem' }}>
+          <ul style={{ paddingLeft: '1.25rem', marginBottom: '1rem', lineHeight: '1.8' }}>
             <li><strong>Noticed:</strong> Field notes and micro-observations about people, physical textures, and everyday environments.</li>
             <li><strong>Musings:</strong> Short mental sparks on habits, momentum, focus, and everyday philosophy.</li>
             <li><strong>Liked:</strong> Curated lines from books, essays, design artifacts, and music encountered in the wild.</li>
           </ul>
 
           <p>
-            Built with pure HTML, Vanilla CSS, and React. Deployed directly to <strong>GitHub Pages</strong> with zero 3rd-party platforms.
+            Built with pure HTML, Vanilla CSS, and React. Deployed directly to <strong>GitHub Pages</strong> with zero third-party platforms.
           </p>
 
           <div className="modal-links">
             <a 
-              href="https://github.com" 
+              href="https://github.com/Shiwani-Thakur-Work/Journal-Thoughts" 
               target="_blank" 
               rel="noreferrer" 
               className="modal-link"
