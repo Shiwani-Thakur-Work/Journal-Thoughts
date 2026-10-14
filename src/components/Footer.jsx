@@ -10,9 +10,9 @@ export default function Footer({ onOpenAbout }) {
   return (
     <footer className="site-footer">
       <div>
-        <span>© {currentYear} Journal of Thoughts.</span>
+        <span>© {currentYear} Shiwani.</span>
         <span style={{ marginLeft: '0.5rem', opacity: 0.65 }}>
-          Crafted with care.
+          Penned casually.
         </span>
       </div>
 

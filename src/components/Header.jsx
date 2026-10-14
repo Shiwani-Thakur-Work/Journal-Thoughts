@@ -7,7 +7,7 @@ export default function Header({ theme, toggleTheme, onOpenAbout, onGoHome }) {
       <div className="header-top">
         <a href="#/" onClick={(e) => { e.preventDefault(); onGoHome(); }} className="site-brand">
           <h1 className="brand-title">
-            Journal of Thoughts
+            Shiwani <span className="brand-subtitle">/ Notes</span>
           </h1>
         </a>
 
@@ -34,17 +34,8 @@ export default function Header({ theme, toggleTheme, onOpenAbout, onGoHome }) {
       </div>
 
       <p className="header-bio">
-        A quiet, distraction-free home for everyday observations, field notes, curiosities noticed, and small ideas collected in the wild.
+        A quiet collection of everyday observations, field notes, curiosities noticed, and thoughts that didn't need to be professional.
       </p>
-
-      <div className="header-meta">
-        <span className="live-indicator">
-          <span className="pulse-dot"></span>
-          <span>Writing & noticing</span>
-        </span>
-        <span>•</span>
-        <span>Hosted directly on GitHub Pages</span>
-      </div>
     </header>
   );
 }
