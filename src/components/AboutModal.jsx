@@ -35,29 +35,26 @@ export default function AboutModal({ isOpen, onClose }) {
         </button>
 
         <h2 id="about-modal-title" className="modal-title">
-          About Daybook
+          About
         </h2>
 
         <div className="modal-content">
           <p>
-            Welcome to my personal <strong>Daybook</strong>.
+            Hi, I’m <strong>Shiwani</strong>.
           </p>
 
           <p>
-            This space is an intentional, quiet corner of the internet. It is not a polished portfolio or a corporate tech blog—just a place where I gather things I noticed during a walk, observations on people and design, fragments of overheard conversations, or ideas that sparked curiosity.
+            I wanted a quiet place to collect the little things that catch my attention throughout the week, split simply into:
           </p>
 
-          <p>
-            I organize my thoughts into three lightweight rhythms:
-          </p>
           <ul style={{ paddingLeft: '1.25rem', marginBottom: '1.25rem', lineHeight: '1.8' }}>
-            <li><strong>Noticed:</strong> Field notes and small daily observations.</li>
-            <li><strong>Musings:</strong> Reflections on habits, mindset, and everyday questions.</li>
-            <li><strong>Liked:</strong> Quotes, books, artifacts, or music that stayed with me.</li>
+            <li><strong>Noticed:</strong> Everyday details, scenes, or things seen on the street.</li>
+            <li><strong>Musings:</strong> Casual thoughts and ideas I’m turning over.</li>
+            <li><strong>Liked:</strong> Lines from books, music, or things worth keeping.</li>
           </ul>
 
           <p>
-            No algorithms, no tracking, and no demands on your attention. Just a quiet reading room whenever you happen to wander by.
+            Nothing serious or technical. Thanks for stopping by.
           </p>
 
           <div className="modal-links">
